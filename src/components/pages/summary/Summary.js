@@ -99,6 +99,7 @@ class Player {
     }
 
     if (keys.right.pressed && this.position.x < 400) this.velocity.x = 5;
+    else if (keys.up.pressed && this.position.y < -100) this.velocity.y = 1;
     else if ((keys.left.pressed && this.position.x > 100) || (keys.left.pressed && this.scrollOffset === 0 && this.position.x > 0) || (keys.right.pressed && this.scrollOffset > 3600 && this.position.x > 0)) this.velocity.x = -5;
     else {
       this.velocity.x = 0;
@@ -174,7 +175,6 @@ class Summary extends React.Component {
     super();
 
     this.canvas = React.createRef();
-    // this.summary = React.createRef();
     this.player = {};
     this.handleKeyDown = this.handleKeyDown.bind(this);
     this.scrollOffset = 0;
@@ -224,6 +224,9 @@ class Summary extends React.Component {
         },
         right: {
           pressed: false
+        },
+        up: {
+          pressed: false
         }
       }
   
@@ -254,11 +257,6 @@ class Summary extends React.Component {
 
     switch(key) {
       case 'a':
-        // if (player.scrollOffset < 0) {
-        //   player.scrollOffset = 0;
-        //   this.props.switchChannel({keyId: 1, key: 'start', items: ['introduce myself']});
-        //   this.props.updateCurrentItem({channel: 1, item: 'introduce myself'});
-        // }
         player.currentStripe = this.createImage(player.sprites.run.left);
         player.cropWidth = player.sprites.run.cropWidth;
         player.width = player.sprites.run.width;
@@ -267,19 +265,14 @@ class Summary extends React.Component {
       case 's':
         break;
       case 'd':
-        // if (player.scrollOffset > 3600) {
-          // player.scrollOffset = 0;
-          // this.props.switchChannel({keyId: 3, key: 'education', items: ['']});
-          // this.props.updateCurrentItem({channel: 3, item: ''});
-          // player.clearPlayer();
-        // }
         player.currentStripe = this.createImage(player.sprites.run.right);
         player.cropWidth = player.sprites.run.cropWidth;
         player.width = player.sprites.run.width;
         keys.right.pressed = true;
         break;
       case 'w':
-        player.velocity.y -= 10;
+        player.velocity.y -= 25;
+        keys.up.pressed = true;
         break;
     }
   }
@@ -402,20 +395,21 @@ class Summary extends React.Component {
     return (
       <div className={`Summary ${isOn}`} ref={elem => this.summary = elem}>
         {(_.includes(['onGoing', 'on'], isOn) && this.props.channel === 2 && window.innerWidth > 1400) ?
-         <canvas ref={this.canvas}/> :
-         <>
-         <div className="row">
-           <div className="col text-center">
-             <div className="mt-3">
-               <div className="row mt-3 d-flex justify-content-center">
-                 <div className="col-lg-8 text-left text-dark">
-                   <Tree data={treeData} />
-                 </div>
-               </div>
-             </div>
-           </div>
-         </div>
-       </>
+          <canvas ref={this.canvas}/>
+           :
+          <>
+            <div className="row">
+              <div className="col text-center">
+                <div className="mt-3">
+                  <div className="row mt-3 d-flex justify-content-center">
+                    <div className="col-lg-8 text-left text-dark">
+                      <Tree data={treeData} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </>
         }
       </div>
     )
