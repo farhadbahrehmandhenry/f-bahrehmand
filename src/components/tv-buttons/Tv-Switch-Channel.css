@@ -1,0 +1,120 @@
+.tv-switch-channel {
+  top: 1rem;
+  min-width: 6rem;
+  min-height: 6rem;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 50%;
+  border: 4px solid white;
+  -webkit-box-shadow: -8px 8px 15px rgba(225, 225, 225, 0.05), 20px 20px 20px rgba(0, 0, 0, 0.2), inset -8px -8px 15px rgba(225, 225, 225, 0.05), inset 20px 20px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: -8px 8px 15px rgba(225, 225, 225, 0.05), 20px 20px 20px rgba(0, 0, 0, 0.2), inset -8px -8px 15px rgba(225, 225, 225, 0.05), inset 20px 20px 20px rgba(0, 0, 0, 0.2);
+  position: relative;
+  margin-top: 2rem;
+}
+
+.tv-switch-channel .number::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 5px;
+  height: 15px;
+  background-color: black;
+}
+
+.tv-switch-channel .one-four, .tv-switch-channel .two-five, .tv-switch-channel .three-six {
+  --roation: 0;
+  position: absolute;
+  height: 11rem;
+  text-align: center;
+  -webkit-transform: rotate(var(--roation));
+          transform: rotate(var(--roation));
+  font-size: 1.5rem;
+  padding: 18px;
+  margin-left: 1.5rem;
+  top: -3.5rem;
+  z-index: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.tv-switch-channel .one-four {
+  --roation: 0deg
+  ;
+}
+
+.tv-switch-channel .two-five {
+  --roation: 60deg;
+}
+
+.tv-switch-channel .three-six {
+  --roation: 120deg
+  ;
+}
+
+.tv-switch-channel .number4, .tv-switch-channel .number5, .tv-switch-channel .number6 {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.tv-switch-channel .number1, .tv-switch-channel .number2, .tv-switch-channel .number3, .tv-switch-channel .number4, .tv-switch-channel .number5, .tv-switch-channel .number6 {
+  cursor: pointer;
+  color: white;
+}
+
+.tv-switch-channel .number {
+  height: 50%;
+}
+
+.tv-switch-channel .tv-switch-channel-handle {
+  border-radius: 50%;
+  border-bottom-left-radius: 0.2rem;
+  border-bottom-right-radius: 0.2rem;
+  position: absolute;
+  height: 5rem;
+  width: 1.3rem;
+  margin-left: 2.5rem;
+  top: 0.6rem;
+  background-color: black;
+  background-image: -webkit-gradient(linear, left top, right top, from(black), to(gray));
+  background-image: linear-gradient(to right, black, gray);
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: slidein;
+          animation-name: slidein;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+@-webkit-keyframes slidein {
+  from {
+    background-color: red;
+  }
+  75% {
+    background-color: green;
+  }
+  to {
+    background-color: blue;
+  }
+}
+
+@keyframes slidein {
+  from {
+    background-color: red;
+  }
+  75% {
+    background-color: green;
+  }
+  to {
+    background-color: blue;
+  }
+}
+/*# sourceMappingURL=Tv-Switch-Channel.css.map */

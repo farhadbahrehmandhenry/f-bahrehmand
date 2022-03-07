@@ -1,0 +1,56 @@
+.tv-body {
+  height: 38rem;
+  border: 0.3rem solid black;
+  border-radius: 30px;
+  display: flex;
+  // min-width: 30rem;
+  background-image: linear-gradient(to right, #660708 ,#e5383b);
+  overflow: hidden;
+  
+  .tv-screen, .tv-buttons {
+    border: 0.3rem solid black;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 20px;
+  }
+
+  .tv-screen {
+    width: 100%;
+    min-width: 40%;
+    margin-right: 10px;
+    background-color: black;
+  }
+
+  .tv-screen::-webkit-scrollbar {
+    display: none;
+  }
+
+  .tv-screen {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll; 
+  }
+
+  .tv-buttons {
+    width: 20rem;
+    min-width: 10rem;
+    max-width: 20rem;
+    margin-left: 0;
+    background-color: gray;
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .tv-body {
+    height: 18rem;
+
+    .tv-buttons {
+      display: none;
+    }
+
+    .tv-screen {
+      margin-right: 20px;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.tv-legs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  min-width: 31rem;
+
+  .tv-left-leg {
+
+    align-self: flex-start;
+  }
+
+  .tv-right-leg {
+    align-self: flex-end;
+  }
+
+  .tv-left-leg, .tv-right-leg {
+    width: 3rem;
+    height: 3rem;
+    border: 0.3rem solid black;
+    border-top: none;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-image: linear-gradient(to right, black ,gray);
+  }
+
+
+}

@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&display=swap');
+
+.tv-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-image: url('../../assets/webb-dark.png');
+
+  .tv-switch-channel-container, .tv-speacker, .tv-switch-toggles-container, .tv-channel-description {
+    width: 100%;
+  }
+
+  .tv-switch-channel-container, .tv-speaker, .tv-channel-description {
+    border-bottom: 1px solid black;
+  }
+
+  .tv-channel-description {
+    min-height: 3rem;
+    background-color: black;
+    color: white;
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+
+    .channel-item {
+      font-weight: normal;
+      font-size: 0.9rem;
+    }
+  }
+
+  .tv-switch-channel-container {
+    height: 50%;
+    min-height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    .scroll-switch {
+      margin-top: 2rem;
+      width: 10rem;
+      background-color: white;
+      border-radius: 20px;
+      align-self: center;
+      margin-right: 0;
+    }
+  }
+
+  .tv-speaker {
+    height: 40%;
+  }
+
+  .bottom-buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+
+    .tv-switch-toggles-container {
+      width: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .linkedin, .github, .gmail {
+      cursor: pointer;
+      width: 2rem;
+      height: 2rem;
+      background-color: white;
+      border-radius: 50%;
+      border: 1px solid black;
+      overflow: hidden;
+      outline: hidden;
+      z-index: 0;
+      border-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow:  -8px 8px 15px rgba(225,225,225,0.05),
+      20px 20px 20px rgba(0,0,0,0.2),
+      inset -8px -8px 15px rgba(225,225,225,0.05),
+      inset 20px 20px 20px rgba(0,0,0,0.2);
+
+      img {
+        width: 1.9rem;
+        height: 1.9rem;
+        border-radius: 50%;
+        opacity: 0;
+        z-index: 1;
+        transition: opacity 1s ease;
+        outline: hidden;
+        border-style: none;
+        margin: 0;
+
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+
+    .github {
+
+    }
+
+    .gmail{
+
+    }
+  }
+
+
+  @media only screen and (max-width: 1650px) {
+    .tv-channel-description .channel-item {
+      font-size: 0.8rem;
+    }
+  }
+
+  @media only screen and (max-width: 700px) {
+    .bottom-buttons {
+      .linkedin, .github, .gmail {
+        width: 1.5rem;
+        height: 1.5rem;
+
+        img {
+          width: 1.4rem;
+          height: 1.4rem;
+        }
+      }
+    }
+  }
+}

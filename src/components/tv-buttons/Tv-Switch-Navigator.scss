@@ -1,0 +1,121 @@
+$size: 2rem;
+
+.tv-switch-navigator {
+  display: flex;
+  border-radius: 50%;
+  box-shadow:  -8px 8px 15px rgba(225,225,225,0.05),
+  20px 20px 20px rgba(0,0,0,0.2),
+  inset -8px -8px 15px rgba(225,225,225,0.05),
+  inset 20px 20px 20px rgba(0,0,0,0.2);
+  background-color: rgba(255,255,255,0.9);
+  border: 4px solid white;
+  z-index: 10;
+  position: relative;
+  height: $size * 2;
+  
+  &:hover {
+    animation-play-state: paused;
+  }
+
+  .tv-next-button, .tv-prev-button {
+    height: calc(100% - 1px);
+    width: $size;
+    border: 1px solid black;
+    cursor: pointer;
+  }  
+
+  .tv-next-button {
+    border-bottom-right-radius: $size * 2;
+    border-top-right-radius: $size * 2;
+  }
+
+  .tv-next-button .has-next {
+    width: 0;
+    height: 100%;
+    border-bottom-right-radius: $size * 2;
+    border-top-right-radius: $size * 2;
+    background-image: linear-gradient(to right, black ,gray);
+    transition: width 0.3s ease;
+  }
+
+  .tv-next-button:hover .has-next{
+    width: 100%;
+  }
+  
+  .tv-prev-button {
+    border-bottom-right-radius: $size * 2;
+    border-top-right-radius: $size * 2;
+    transform: rotate(180deg);
+  }
+
+  .tv-prev-button .has-previous {
+    width: 0;
+    height: 100%;
+    border-bottom-right-radius: $size * 2;
+    border-top-right-radius: $size * 2;
+    transform: rotate(360deg);
+    background-image: linear-gradient(to right, black ,gray);
+    transition: width 0.3s ease;
+  }
+
+  .tv-prev-button:hover .has-previous {
+    width: 100%;
+  }
+
+  .tv-prev-button .blinking, .tv-prev-button .both-blinking {
+    width: 100%;
+    height: 100%;
+    border-bottom-right-radius: $size * 2;
+    border-top-right-radius: $size * 2;
+    transform: rotate(360deg);
+    background-image: linear-gradient(to right, gray ,red);
+    position: absolute;
+  }
+
+  .tv-next-button .blinking, .tv-next-button .both-blinking {
+    width: calc(50% - 0.1rem);
+    height: 100%;
+    border-bottom-right-radius: $size * 2;
+    border-top-right-radius: $size * 2;
+    background-image: linear-gradient(to right, gray ,red);
+    position: absolute;
+  }
+
+  .tv-next-button .blinking, .tv-prev-button .blinking {
+    animation: blink 0.8s infinite;
+
+      &:hover {
+        animation-play-state: paused;
+        background-image: linear-gradient(to right, black ,gray);
+      }
+  }
+
+  .tv-prev-button .both-blinking, .tv-next-button .both-blinking {
+    animation: blink 0.8s 2s infinite;
+
+      &:hover {
+        animation-play-state: paused;
+        background-image: linear-gradient(to right, black ,gray);
+      }
+  }
+
+  @keyframes blink {
+    from { 
+      opacity: 0;
+    }
+    to { 
+      opacity: 1;
+    }
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .tv {
+    height: 20rem;
+
+    .tv-switch-navigator  {
+      .tv-next-button, .tv-prev-button {
+      }
+    }
+  }
+}

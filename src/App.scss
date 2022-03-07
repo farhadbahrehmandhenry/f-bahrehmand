@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&display=swap');
+
+.App {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: calc(100% - 6rem);
+  background-image: url('./assets/wheat.png');
+  font-family: 'Montserrat', sans-serif;
+  padding: 3rem;
+}
+
+// @media only screen and (max-width: 725px) {
+//   .App {
+//     overflow: scroll;
+//   }
+// }
+
+@media only screen and (max-height: 600px) {
+  .App {
+    overflow: scroll;
+  }
+}

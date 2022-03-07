@@ -1,0 +1,87 @@
+.tv-screen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  overflow-y: scroll;
+}
+
+.tv-screen .tv-screen-nav {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-self: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: -webkit-gradient(linear, left top, right top, from(black), to(#403d39));
+  background-image: linear-gradient(to right, black, #403d39);
+}
+
+.tv-screen .tv-on-screen {
+  height: 0.1rem;
+  width: 0.1rem;
+  background-color: white;
+  position: absolute;
+  opacity: 0;
+  z-index: 0;
+}
+
+.tv-screen .tv-on-screen.off {
+  height: 0.1rem;
+  width: 0.1rem;
+  opacity: 0.9;
+  z-index: 0;
+  -webkit-transition: width 1s ease;
+  transition: width 1s ease;
+}
+
+.tv-screen .tv-on-screen.on {
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  z-index: 1;
+  -webkit-transition: width 0.8s ease, height 1s 0.3s ease, opacity 1s ease;
+  transition: width 0.8s ease, height 1s 0.3s ease, opacity 1s ease;
+}
+
+.tv-screen .tv-on-screen-contents {
+  border-radius: 20px;
+  width: 0;
+  height: 0;
+  z-index: 10;
+  background-color: white;
+  position: absolute;
+  opacity: 1;
+  visibility: hidden;
+  z-index: 10;
+}
+
+.tv-screen .tv-on-screen-contents.on, .tv-screen .tv-on-screen-contents.onGoing {
+  opacity: 1;
+  visibility: visible;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: visibility 1s 1.2s ease;
+  transition: visibility 1s 1.2s ease;
+}
+
+.tv-screen .tv-on-screen-contents.off {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  z-index: 0;
+  visibility: hidden;
+}
+/*# sourceMappingURL=Tv-Screen.css.map */

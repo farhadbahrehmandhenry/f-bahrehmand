@@ -1,0 +1,23 @@
+.tv-speaker {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 1rem;
+}
+
+.tv-speaker .tv-speaker-line {
+  height: 0.5rem;
+  width: 97%;
+  -webkit-box-shadow: -8px 8px 15px rgba(225, 225, 225, 0.05), 20px 20px 20px rgba(0, 0, 0, 0.2), inset -8px -8px 15px rgba(225, 225, 225, 0.05), inset 20px 20px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: -8px 8px 15px rgba(225, 225, 225, 0.05), 20px 20px 20px rgba(0, 0, 0, 0.2), inset -8px -8px 15px rgba(225, 225, 225, 0.05), inset 20px 20px 20px rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 4px solid white;
+}
+/*# sourceMappingURL=Tv-Speaker.css.map */

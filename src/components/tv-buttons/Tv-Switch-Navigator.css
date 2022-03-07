@@ -1,0 +1,140 @@
+.tv-switch-navigator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 50%;
+  -webkit-box-shadow: -8px 8px 15px rgba(225, 225, 225, 0.05), 20px 20px 20px rgba(0, 0, 0, 0.2), inset -8px -8px 15px rgba(225, 225, 225, 0.05), inset 20px 20px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: -8px 8px 15px rgba(225, 225, 225, 0.05), 20px 20px 20px rgba(0, 0, 0, 0.2), inset -8px -8px 15px rgba(225, 225, 225, 0.05), inset 20px 20px 20px rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 4px solid white;
+  z-index: 10;
+  position: relative;
+  height: 4rem;
+}
+
+.tv-switch-navigator:hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+.tv-switch-navigator .tv-next-button, .tv-switch-navigator .tv-prev-button {
+  height: calc(100% - 1px);
+  width: 2rem;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.tv-switch-navigator .tv-next-button {
+  border-bottom-right-radius: 4rem;
+  border-top-right-radius: 4rem;
+}
+
+.tv-switch-navigator .tv-next-button .has-next {
+  width: 0;
+  height: 100%;
+  border-bottom-right-radius: 4rem;
+  border-top-right-radius: 4rem;
+  background-image: -webkit-gradient(linear, left top, right top, from(black), to(gray));
+  background-image: linear-gradient(to right, black, gray);
+  -webkit-transition: width 0.3s ease;
+  transition: width 0.3s ease;
+}
+
+.tv-switch-navigator .tv-next-button:hover .has-next {
+  width: 100%;
+}
+
+.tv-switch-navigator .tv-prev-button {
+  border-bottom-right-radius: 4rem;
+  border-top-right-radius: 4rem;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.tv-switch-navigator .tv-prev-button .has-previous {
+  width: 0;
+  height: 100%;
+  border-bottom-right-radius: 4rem;
+  border-top-right-radius: 4rem;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  background-image: -webkit-gradient(linear, left top, right top, from(black), to(gray));
+  background-image: linear-gradient(to right, black, gray);
+  -webkit-transition: width 0.3s ease;
+  transition: width 0.3s ease;
+}
+
+.tv-switch-navigator .tv-prev-button:hover .has-previous {
+  width: 100%;
+}
+
+.tv-switch-navigator .tv-prev-button .blinking, .tv-switch-navigator .tv-prev-button .both-blinking {
+  width: 100%;
+  height: 100%;
+  border-bottom-right-radius: 4rem;
+  border-top-right-radius: 4rem;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  background-image: -webkit-gradient(linear, left top, right top, from(gray), to(red));
+  background-image: linear-gradient(to right, gray, red);
+  position: absolute;
+}
+
+.tv-switch-navigator .tv-next-button .blinking, .tv-switch-navigator .tv-next-button .both-blinking {
+  width: calc(50% - 0.1rem);
+  height: 100%;
+  border-bottom-right-radius: 4rem;
+  border-top-right-radius: 4rem;
+  background-image: -webkit-gradient(linear, left top, right top, from(gray), to(red));
+  background-image: linear-gradient(to right, gray, red);
+  position: absolute;
+}
+
+.tv-switch-navigator .tv-next-button .blinking, .tv-switch-navigator .tv-prev-button .blinking {
+  -webkit-animation: blink 0.8s infinite;
+          animation: blink 0.8s infinite;
+}
+
+.tv-switch-navigator .tv-next-button .blinking:hover, .tv-switch-navigator .tv-prev-button .blinking:hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+  background-image: -webkit-gradient(linear, left top, right top, from(black), to(gray));
+  background-image: linear-gradient(to right, black, gray);
+}
+
+.tv-switch-navigator .tv-prev-button .both-blinking, .tv-switch-navigator .tv-next-button .both-blinking {
+  -webkit-animation: blink 0.8s 2s infinite;
+          animation: blink 0.8s 2s infinite;
+}
+
+.tv-switch-navigator .tv-prev-button .both-blinking:hover, .tv-switch-navigator .tv-next-button .both-blinking:hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+  background-image: -webkit-gradient(linear, left top, right top, from(black), to(gray));
+  background-image: linear-gradient(to right, black, gray);
+}
+
+@-webkit-keyframes blink {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .tv {
+    height: 20rem;
+  }
+}
+/*# sourceMappingURL=Tv-Switch-Navigator.css.map */

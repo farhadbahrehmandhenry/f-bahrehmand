@@ -1,0 +1,242 @@
+.things-i-like {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  border-radius: 10px;
+  color: white;
+
+  .topics-container {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, black ,#403d39);
+    display: flex;
+    padding: 2rem;
+
+    .topics {
+      display: flex;
+      width: calc(100% - 2rem);
+      height: calc(100% - 3rem);
+      border-radius: 20px;
+      opacity: 0.8;
+
+      .tabs {
+        display: flex;
+        flex-direction: column;
+        width: 7rem;
+        justify-content: space-between;
+        border-right: none;
+        background-color: #023e8a;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+
+        .tab {
+          border: 1px solid black;
+          height: 100%;
+          border-left: none;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer;
+          border-top-right-radius: 5px;
+          border-bottom-right-radius: 5px;
+
+          &:hover {
+            background-color: #c32530;
+            transform: scale(1.1);
+          }
+        }
+
+        .tab:first-child {
+          border-top-left-radius: 20px;
+        }
+  
+        .tab:last-child {
+          border-bottom-left-radius: 20px;
+        }
+
+        .tab.active {
+          border-right: none;
+          border-top: none;
+          border-bottom: none;
+          background-color: #942b3b;
+          transform: scale(1.1);
+        }
+  
+        .tab:nth-child(1) {
+          border-top: none;
+        }
+      }
+  
+      .content {
+        width: calc(100% - 7rem);
+        border-left: none;
+        padding: 3rem;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        background-color: #023e8a;
+        overflow: scroll;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+
+        .card {
+          margin-right: 1.5rem;
+          border: 1px solid black;
+          width: 10rem;
+          height: 15rem;
+          border-radius: 15px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: center;
+          margin: 1rem;
+          background-color: #028090;
+          opacity: 0.9;
+          transition: all 0.5s ease;
+
+          &:hover {
+            cursor: pointer;
+            transform: rotate(360deg) scale(1.2);
+            background-color: #942b3b;
+
+            img {
+              display: block;
+            }
+          }
+  
+  
+          img {
+            width: 3rem;
+            height: 3rem;
+            margin-top: 1rem;
+            border-radius: 50%;
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  @keyframes cardHover {
+    to { 
+      transform: scale(1.1);
+    }
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .things-i-like {
+    .topics-container {
+      .topics {
+        .content {
+          justify-content: center;
+          .card {
+            width: 7rem;
+            height: 10rem;
+
+            .card-name {
+            }
+          }
+        }
+      }
+    }
+  }  
+}
+
+@media only screen and (max-width: 900px) {
+  .things-i-like {
+    .topics-container {
+      .topics {
+        .content {
+          .card {
+            width: 5rem;
+            height: 7rem;
+            
+            .card-name {
+            }
+          }
+        }
+      }
+    }
+  }  
+}
+
+@media only screen and (max-width: 700px) {
+  .things-i-like {
+    .topics-container {
+      .topics {
+        .content {
+          .card {
+            width: 5rem;
+            height: 6rem;
+            
+            .card-name {
+            }
+          }
+        }
+      }
+    }
+  }  
+}
+
+@media only screen and (max-width: 650px) {
+  .things-i-like {
+    .topics-container {
+      .topics {
+        .content {
+          .card {
+            width: 3rem;
+            height: 3rem;
+            
+            .card-name {
+              font-size: 0.5rem;
+            }
+
+            &:hover {
+              img {
+                display: none;
+              }
+            }
+          }
+        }
+
+        .tabs {
+          .tab {
+            font-size: 0.8rem;
+          }
+        }
+      }
+    }
+  }  
+}
+
+@media only screen and (max-width: 550px) {
+  .things-i-like {
+  
+    .topics-container {
+      padding: 0;
+
+      .topics {
+        height: 100%;
+        width: 100%;
+
+        .content {
+          .card {
+            width: auto;
+            height: 2rem;
+            padding: 0.5rem;
+            .card-name {
+              // display: none;
+            }
+          }
+        }
+
+        .tabs {
+          .tab {
+            font-size: 0.6rem;
+          }
+        }
+      }
+    }
+  }  
+}

@@ -1,0 +1,34 @@
+.tv-legs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  min-width: 31rem;
+}
+
+.tv-legs .tv-left-leg {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.tv-legs .tv-right-leg {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.tv-legs .tv-left-leg, .tv-legs .tv-right-leg {
+  width: 3rem;
+  height: 3rem;
+  border: 0.3rem solid black;
+  border-top: none;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-image: -webkit-gradient(linear, left top, right top, from(black), to(gray));
+  background-image: linear-gradient(to right, black, gray);
+}
+/*# sourceMappingURL=Tv-Legs.css.map */

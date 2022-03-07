@@ -1,0 +1,95 @@
+.tv-switch-channel {
+  top: 1rem;
+  min-width: 6rem;
+  min-height: 6rem;
+  background-color: rgba(255,255,255,0.9);
+  border-radius: 50%;
+  border: 4px solid white;
+  box-shadow:  -8px 8px 15px rgba(225,225,225,0.05),
+       20px 20px 20px rgba(0,0,0,0.2),
+       inset -8px -8px 15px rgba(225,225,225,0.05),
+       inset 20px 20px 20px rgba(0,0,0,0.2);
+  position: relative;
+  margin-top: 2rem;
+
+  .number::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 5px;
+    height: 15px;
+    background-color: black;
+  }
+
+  .one-four, .two-five, .three-six {
+    --roation: 0;
+    position: absolute;
+    height: 11rem;
+    text-align: center;
+    transform: rotate(var(--roation));
+    font-size: 1.5rem;
+    padding: 18px;
+    margin-left: 1.5rem;
+    top: -3.5rem;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .one-four {
+    --roation: 0deg
+  }
+
+  .two-five {
+    --roation: 60deg;
+  }
+
+  .three-six {
+    --roation: 120deg
+  }
+
+  .number4, .number5, .number6 {
+    transform: rotate(180deg);
+  }
+
+  .number1, .number2, .number3, .number4, .number5, .number6 {
+    cursor: pointer;
+    color: white;
+  }
+
+  .number {
+    height: 50%;
+  }
+
+  .tv-switch-channel-handle {
+    border-radius: 50%;
+    border-bottom-left-radius: 0.2rem;
+    border-bottom-right-radius: 0.2rem;
+    position: absolute;
+    height: 5rem;
+    width: 1.3rem;
+    margin-left: 2.5rem;
+    top: 0.6rem;
+    background-color: black;
+    background-image: linear-gradient(to right, black ,gray);
+    animation-duration: 3s;
+    animation-name: slidein;
+    transition: all 1s ease;
+  }
+  
+  @keyframes slidein {
+    from {
+      background-color: red;
+    }
+  
+    75% {
+      background-color: green;
+    }
+  
+    to {
+      background-color: blue;
+    }
+  }
+} 
