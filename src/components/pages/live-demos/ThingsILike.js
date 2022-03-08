@@ -1,6 +1,8 @@
 import React, {useState, useEffect} from 'react';
 import Card from './Card';
-import calculator from '../../../assets/calculator.png';
+import calculator from '../../../assets/calc.png';
+import classImg from '../../../assets/class.png';
+import exchange from '../../../assets/exchange.png';
 import './ThingsILike.scss';
 import _ from 'lodash';
 
@@ -11,6 +13,14 @@ function ThingsILike() {
       key: 'vanila',
       links: [
         {name: 'Simple Calculator', url: 'https://www.sitepoint.com/learn-regex/', image: calculator},
+        {name: 'Exchange Calculator', url: 'https://www.sitepoint.com/learn-regex/', image: exchange},
+      ]
+    },
+    {
+      name: 'Class', 
+      key: 'class',
+      links: [
+        {name: 'Class Object', url: 'https://www.sitepoint.com/learn-regex/', image: classImg},
       ]
     }
   ];
