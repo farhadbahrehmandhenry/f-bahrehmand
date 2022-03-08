@@ -3,7 +3,7 @@ import Education from '../pages/education/Education';
 import Main from '../pages/main/Main';
 import Projects from '../pages/projects/Projects';
 import Summary from '../pages/summary/Summary';
-import ThingsILike from '../pages/things-I-like/ThingsILike';
+import ThingsILike from '../pages/live-demos/ThingsILike';
 import WorkExperience from '../pages/work-experience/Work-Experience';
 import { useSelector } from 'react-redux';
 
