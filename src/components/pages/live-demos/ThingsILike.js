@@ -3,24 +3,152 @@ import Card from './Card';
 import calculator from '../../../assets/calc.png';
 import classImg from '../../../assets/class.png';
 import exchange from '../../../assets/exchange.png';
+import expense from '../../../assets/expense.png';
+import flash from '../../../assets/flash.png';
+import flip from '../../../assets/flip.png';
+import form from '../../../assets/form.png';
+import fullPageScroll from '../../../assets/fullPageScroll.png';
+import hangman from '../../../assets/hangman.png';
+import infinite from '../../../assets/infinite.png';
+import meal from '../../../assets/meal.png';
+import modal from '../../../assets/modal.png';
+import music from '../../../assets/music.png';
+import movie from '../../../assets/movie.png';
+import navbar from '../../../assets/navbar.png';
+import parallex from '../../../assets/parallex.png';
+import progress from '../../../assets/progress.png';
+import search from '../../../assets/search.png';
+import text from '../../../assets/text.png';
+import textAnimation from '../../../assets/textAnimation.png';
+import typing from '../../../assets/typing.png';
+import video from '../../../assets/video.png';
+
+
 import './ThingsILike.scss';
 import _ from 'lodash';
 
 function ThingsILike() {
   var topics = [
     {
-      name: 'Vanila JavaScript', 
+      name: 'Vanila JavaScript Projects', 
       key: 'vanila',
       links: [
-        {name: 'Simple Calculator', url: 'https://www.sitepoint.com/learn-regex/', image: calculator},
-        {name: 'Exchange Calculator', url: 'https://www.sitepoint.com/learn-regex/', image: exchange},
+        {
+          name: 'Basic Calculator', 
+          url: '[Live Demo](https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/calculator-ok/index.html', 
+          image: calculator
+        },
+        {
+          name: 'Exchange Calculator', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/exchange-rate-calculator-ok/index.html', 
+          image: exchange
+        },
+        {
+          name: 'Expense Tracker', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/expense-tracker-ok/index.html', 
+          image: expense
+        },
+        {
+          name: 'Flash Card', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/flash-card-ok/index.html', 
+          image: flash
+        },
+        {
+          name: 'Flip Card', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/flip-card-ok/index.html', 
+          image: flip
+        },
+        {
+          name: 'Form', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/form-ok/index.html', 
+          image: form
+        },
+        {
+          name: 'Full Page Scroll Effect', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/full-page-scroll-effect-ok/index.html', 
+          image: fullPageScroll
+        },
+        {
+          name: 'Hangman', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/hangman-ok/index.html', 
+          image: hangman
+        },
+        {
+          name: 'Infinite Scroll', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/infinite-scrolling-ok/index.html', 
+          image: infinite
+        },
+        {
+          name: 'Meal Finder', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/meal-finder-ok/index.html', 
+          image: meal
+        },
+        {
+          name: 'Popup Modal', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/modal-ok/index.html', 
+          image: modal
+        },
+        {
+          name: 'Music Player', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/music-player-ok/index.html', 
+          image: music
+        },
+        {
+          name: 'Movie Seat Booking', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/movie-seat-booking-app-ok/index.html', 
+          image: movie
+        },
+        {
+          name: 'Simple Navbar', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/navbar-ok/index.html', 
+          image: navbar
+        },
+        {
+          name: 'Parallex Effect', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/parallex-effect-ok/index.html', 
+          image: parallex
+        },
+        {
+          name: 'Progress Bar', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/progress-bar-ok/index.html', 
+          image: progress
+        },
+        {
+          name: 'Search Bar', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/search-bar-ok/index.html', 
+          image: search
+        },
+        {
+          name: 'Search Text Reader', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/speech-text-reader-ok/index.html', 
+          image: text
+        },
+        {
+          name: 'Text Animation', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/text-animation-ok/index.html', 
+          image: textAnimation
+        },
+        {
+          name: 'Typing Game', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/typing-game-ok/index.html', 
+          image: typing
+        },
+        {
+          name: 'Video Player', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/video-player-ok/index.html', 
+          image: video
+        },
       ]
     },
     {
-      name: 'Class', 
-      key: 'class',
+      name: 'Tutorials', 
+      key: 'tutorials',
       links: [
-        {name: 'Class Object', url: 'https://www.sitepoint.com/learn-regex/', image: classImg},
+        {
+          name: 'Class', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/configs/class-ok/index.html', 
+          image: classImg
+        },   
       ]
     }
   ];
