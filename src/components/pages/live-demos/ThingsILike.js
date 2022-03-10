@@ -7,7 +7,7 @@ import expense from '../../../assets/expense.png';
 import flash from '../../../assets/flash.png';
 import flip from '../../../assets/flip.png';
 import form from '../../../assets/form.png';
-import fullPageScroll from '../../../assets/fullPageScroll.png';
+import fullPageScroll from '../../../assets/full-page-scroll.png';
 import hangman from '../../../assets/hangman.png';
 import infinite from '../../../assets/infinite.png';
 import meal from '../../../assets/meal.png';
