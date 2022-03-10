@@ -10,7 +10,7 @@ import form from '../../../assets/form.png';
 import fullPageScroll from '../../../assets/full-page-scroll.png';
 import hangman from '../../../assets/hangman.png';
 import infinite from '../../../assets/infinite-scroll.png';
-import meal from '../../../assets/meal.png';
+import meal from '../../../assets/meal.jpg';
 import modal from '../../../assets/modal.png';
 import music from '../../../assets/music.png';
 import movie from '../../../assets/movie.png';
