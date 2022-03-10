@@ -9,7 +9,7 @@ import flip from '../../../assets/flip.png';
 import form from '../../../assets/form.png';
 import fullPageScroll from '../../../assets/full-page-scroll.png';
 import hangman from '../../../assets/hangman.png';
-import infinite from '../../../assets/infinite.png';
+import infinite from '../../../assets/infinite-scroll.png';
 import meal from '../../../assets/meal.png';
 import modal from '../../../assets/modal.png';
 import music from '../../../assets/music.png';
@@ -18,8 +18,8 @@ import navbar from '../../../assets/navbar.png';
 import parallex from '../../../assets/parallex.png';
 import progress from '../../../assets/progress.png';
 import search from '../../../assets/search.png';
-import text from '../../../assets/text.png';
-import textAnimation from '../../../assets/textAnimation.png';
+import speech from '../../../assets/speech.png';
+import textAnimation from '../../../assets/text.png';
 import typing from '../../../assets/typing.png';
 import video from '../../../assets/video.png';
 
@@ -121,7 +121,7 @@ function ThingsILike() {
         {
           name: 'Search Text Reader', 
           url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/speech-text-reader-ok/index.html', 
-          image: text
+          image: speech
         },
         {
           name: 'Text Animation', 
