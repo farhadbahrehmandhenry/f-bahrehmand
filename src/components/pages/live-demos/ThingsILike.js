@@ -141,7 +141,7 @@ function ThingsILike() {
         {
           name: 'Lyric Finder', 
           url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/lyric-finder-ok/index.html', 
-          image: video
+          image: lyric
         },
       ]
     },
