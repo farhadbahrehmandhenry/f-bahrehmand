@@ -23,6 +23,7 @@ import textAnimation from '../../../assets/text.png';
 import typing from '../../../assets/typing.png';
 import video from '../../../assets/video.png';
 import lyric from '../../../assets/lyric.png';
+import breath from '../../../assets/breathing.png';
 
 import './ThingsILike.scss';
 import _ from 'lodash';
@@ -142,6 +143,11 @@ function ThingsILike() {
           name: 'Lyric Finder', 
           url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/lyric-finder-ok/index.html', 
           image: lyric
+        },
+        {
+          name: 'Breathing App', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/breathe-ok/index.html', 
+          image: breath
         },
       ]
     },
