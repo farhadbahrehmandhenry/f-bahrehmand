@@ -36,7 +36,7 @@ function ThingsILike() {
       links: [
         {
           name: 'Basic Calculator', 
-          url: '[Live Demo](https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/calculator-ok/index.html', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/calculator-ok/index.html', 
           image: calculator
         },
         {
