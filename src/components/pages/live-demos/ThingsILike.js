@@ -24,6 +24,7 @@ import typing from '../../../assets/typing.png';
 import video from '../../../assets/video.png';
 import lyric from '../../../assets/lyric.png';
 import breath from '../../../assets/breathing.png';
+import pingPong from '../../../assets/ping-pong.png';
 
 import './ThingsILike.scss';
 import _ from 'lodash';
@@ -148,6 +149,11 @@ function ThingsILike() {
           name: 'Breathing App', 
           url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/breathe-ok/index.html', 
           image: breath
+        },
+        {
+          name: 'Ping Pong', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/ping-pong-ok/index.html', 
+          image: pingPong
         },
       ]
     },
