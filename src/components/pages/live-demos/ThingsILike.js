@@ -25,6 +25,7 @@ import video from '../../../assets/video.png';
 import lyric from '../../../assets/lyric.png';
 import breath from '../../../assets/breathing.png';
 import pingPong from '../../../assets/ping-pong.png';
+import newYear from '../../../assets/year.png';
 
 import './ThingsILike.scss';
 import _ from 'lodash';
@@ -154,6 +155,11 @@ function ThingsILike() {
           name: 'Ping Pong', 
           url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/ping-pong-ok/index.html', 
           image: pingPong
+        },
+        {
+          name: 'New Year Countdown', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/new-year-ok/index.html', 
+          image: newYear
         },
       ]
     },
