@@ -27,6 +27,7 @@ import breath from '../../../assets/breathing.png';
 import pingPong from '../../../assets/ping-pong.png';
 import newYear from '../../../assets/year.png';
 import sortableList from '../../../assets/sortable-list.png';
+import guessNumber from '../../../assets/guess-number.png';
 
 import './ThingsILike.scss';
 import _ from 'lodash';
@@ -166,6 +167,11 @@ function ThingsILike() {
           name: 'Sortable List', 
           url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/sortable-list-ok/index.html', 
           image: sortableList
+        },
+        {
+          name: 'Guess the Numebr', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/guess-the-number-ok/index.html', 
+          image: guessNumber
         },
       ]
     },
