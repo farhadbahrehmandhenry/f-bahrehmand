@@ -28,6 +28,7 @@ import pingPong from '../../../assets/ping-pong.png';
 import newYear from '../../../assets/year.png';
 import sortableList from '../../../assets/sortable-list.png';
 import guessNumber from '../../../assets/guess-number.png';
+import quote from '../../../assets/quoting.png';
 
 import './ThingsILike.scss';
 import _ from 'lodash';
@@ -172,6 +173,11 @@ function ThingsILike() {
           name: 'Guess the Numebr', 
           url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/guess-the-number-ok/index.html', 
           image: guessNumber
+        },
+        {
+          name: 'Quote Generator', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/quote-generator-ok/index.html', 
+          image: quote
         },
       ]
     },
