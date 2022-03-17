@@ -41,153 +41,153 @@ function ThingsILike() {
       links: [
         {
           name: 'Basic Calculator', 
-          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/calculator-ok/index.html', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-js-projects/projects/calculator-ok/index.html', 
           image: calculator
         },
         {
           name: 'Exchange Calculator', 
-          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/exchange-rate-calculator-ok/index.html', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-js-projects/projects/exchange-rate-calculator-ok/index.html', 
           image: exchange
         },
         {
           name: 'Expense Tracker', 
-          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/expense-tracker-ok/index.html', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-js-projects/projects/expense-tracker-ok/index.html', 
           image: expense
         },
         {
           name: 'Flash Card', 
-          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/flash-card-ok/index.html', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-js-projects/projects/flash-card-ok/index.html', 
           image: flash
         },
         {
           name: 'Flip Card', 
-          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/flip-card-ok/index.html', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-js-projects/projects/flip-card-ok/index.html', 
           image: flip
         },
         {
           name: 'Form', 
-          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/form-ok/index.html', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-js-projects/projects/form-ok/index.html', 
           image: form
         },
         {
           name: 'Full Page Scroll Effect', 
-          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/full-page-scroll-effect-ok/index.html', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-js-projects/projects/full-page-scroll-effect-ok/index.html', 
           image: fullPageScroll
         },
         {
           name: 'Hangman', 
-          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/hangman-ok/index.html', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-js-projects/projects/hangman-ok/index.html', 
           image: hangman
         },
         {
           name: 'Infinite Scroll', 
-          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/infinite-scrolling-ok/index.html', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-js-projects/projects/infinite-scrolling-ok/index.html', 
           image: infinite
         },
         {
           name: 'Meal Finder', 
-          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/meal-finder-ok/index.html', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-js-projects/projects/meal-finder-ok/index.html', 
           image: meal
         },
         {
           name: 'Popup Modal', 
-          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/modal-ok/index.html', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-js-projects/projects/modal-ok/index.html', 
           image: modal
         },
         {
           name: 'Music Player', 
-          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/music-player-ok/index.html', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-js-projects/projects/music-player-ok/index.html', 
           image: music
         },
         {
           name: 'Movie Seat Booking', 
-          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/movie-seat-booking-app-ok/index.html', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-js-projects/projects/movie-seat-booking-app-ok/index.html', 
           image: movie
         },
         {
           name: 'Simple Navbar', 
-          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/navbar-ok/index.html', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-js-projects/projects/navbar-ok/index.html', 
           image: navbar
         },
         {
           name: 'Parallex Effect', 
-          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/parallex-effect-ok/index.html', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-js-projects/projects/parallex-effect-ok/index.html', 
           image: parallex
         },
         {
           name: 'Progress Bar', 
-          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/progress-bar-ok/index.html', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-js-projects/projects/progress-bar-ok/index.html', 
           image: progress
         },
         {
           name: 'Search Bar', 
-          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/search-bar-ok/index.html', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-js-projects/projects/search-bar-ok/index.html', 
           image: search
         },
         {
           name: 'Search Text Reader', 
-          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/speech-text-reader-ok/index.html', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-js-projects/projects/speech-text-reader-ok/index.html', 
           image: speech
         },
         {
           name: 'Text Animation', 
-          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/text-animation-ok/index.html', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-js-projects/projects/text-animation-ok/index.html', 
           image: textAnimation
         },
         {
           name: 'Typing Game', 
-          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/typing-game-ok/index.html', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-js-projects/projects/typing-game-ok/index.html', 
           image: typing
         },
         {
           name: 'Video Player', 
-          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/video-player-ok/index.html', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-js-projects/projects/video-player-ok/index.html', 
           image: video
         },
         {
           name: 'Lyric Finder', 
-          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/lyric-finder-ok/index.html', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-js-projects/projects/lyric-finder-ok/index.html', 
           image: lyric
         },
         {
           name: 'Breathing App', 
-          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/breathe-ok/index.html', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-js-projects/projects/breathe-ok/index.html', 
           image: breath
         },
         {
           name: 'Ping Pong', 
-          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/ping-pong-ok/index.html', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-js-projects/projects/ping-pong-ok/index.html', 
           image: pingPong
         },
         {
           name: 'New Year Countdown', 
-          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/new-year-ok/index.html', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-js-projects/projects/new-year-ok/index.html', 
           image: newYear
         },
         {
           name: 'Sortable List', 
-          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/sortable-list-ok/index.html', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-js-projects/projects/sortable-list-ok/index.html', 
           image: sortableList
         },
         {
           name: 'Guess the Numebr', 
-          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/guess-the-number-ok/index.html', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-js-projects/projects/guess-the-number-ok/index.html', 
           image: guessNumber
         },
         {
           name: 'Quote Generator', 
-          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/projects/quote-generator-ok/index.html', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-js-projects/projects/quote-generator-ok/index.html', 
           image: quote
         },
       ]
     },
-    {
+    { 
       name: 'Tutorials', 
       key: 'tutorials',
       links: [
         {
           name: 'Class', 
-          url: 'https://farhadbahrehmandhenry.github.io/vanila-javascript-projects.githob.io/configs/class-ok/index.html', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-js-projects/configs/class-ok/index.html', 
           image: classImg
         },   
       ]
