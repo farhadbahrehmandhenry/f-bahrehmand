@@ -10,6 +10,7 @@ import form from '../../../assets/form.png';
 import fullPageScroll from '../../../assets/full-page-scroll.png';
 import hangman from '../../../assets/hangman.png';
 import infinite from '../../../assets/infinite-scroll.png';
+import infiniteTwo from '../../../assets/infinite-2.png';
 import meal from '../../../assets/meal.jpg';
 import modal from '../../../assets/modal.png';
 import music from '../../../assets/music.png';
@@ -83,6 +84,11 @@ function ThingsILike() {
           name: 'Infinite Scroll', 
           url: 'https://farhadbahrehmandhenry.github.io/vanila-js-projects/projects/infinite-scrolling-ok/index.html', 
           image: infinite
+        },
+        {
+          name: 'Infinite Scroll 2', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-js-projects/projects/infinite-scrolling-2-ok/index.html', 
+          image: infiniteTwo
         },
         {
           name: 'Meal Finder', 
