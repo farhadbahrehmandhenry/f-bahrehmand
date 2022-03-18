@@ -30,6 +30,7 @@ import newYear from '../../../assets/year.png';
 import sortableList from '../../../assets/sortable-list.png';
 import guessNumber from '../../../assets/guess-number.png';
 import quote from '../../../assets/quoting.png';
+import pictureInPicture from '../../../assets/pictureInPicture.png';
 
 import './ThingsILike.scss';
 import _ from 'lodash';
@@ -184,6 +185,11 @@ function ThingsILike() {
           name: 'Quote Generator', 
           url: 'https://farhadbahrehmandhenry.github.io/vanila-js-projects/projects/quote-generator-ok/index.html', 
           image: quote
+        },
+        {
+          name: 'Picture In Picture', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-js-projects/projects/picture-in-picture-ok/index.html', 
+          image: pictureInPicture
         },
       ]
     },
