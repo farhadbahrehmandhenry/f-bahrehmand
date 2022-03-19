@@ -32,6 +32,7 @@ import guessNumber from '../../../assets/guess-number.png';
 import quote from '../../../assets/quoting.png';
 import pictureInPicture from '../../../assets/pictureInPicture.png';
 import joke from '../../../assets/joke.png';
+import lightDark from '../../../assets/light-dark.png';
 
 import './ThingsILike.scss';
 import _ from 'lodash';
@@ -196,6 +197,11 @@ function ThingsILike() {
           name: 'Joke Teller', 
           url: 'https://farhadbahrehmandhenry.github.io/vanila-js-projects/projects/joke-teller-ok/index.html', 
           image: joke
+        },
+        {
+          name: 'Joke Teller', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-js-projects/projects/light-dark-mode-ok/index.html', 
+          image: lightDark
         },
       ]
     },
