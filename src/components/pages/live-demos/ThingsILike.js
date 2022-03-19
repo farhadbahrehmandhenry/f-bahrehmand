@@ -195,7 +195,7 @@ function ThingsILike() {
         {
           name: 'Joke Teller', 
           url: 'https://farhadbahrehmandhenry.github.io/vanila-js-projects/projects/joke-teller-ok/index.html', 
-          image: Joke
+          image: joke
         },
       ]
     },
