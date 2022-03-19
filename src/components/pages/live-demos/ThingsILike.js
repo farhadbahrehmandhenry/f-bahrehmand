@@ -31,6 +31,7 @@ import sortableList from '../../../assets/sortable-list.png';
 import guessNumber from '../../../assets/guess-number.png';
 import quote from '../../../assets/quoting.png';
 import pictureInPicture from '../../../assets/pictureInPicture.png';
+import joke from '../../../assets/joke.png';
 
 import './ThingsILike.scss';
 import _ from 'lodash';
@@ -190,6 +191,11 @@ function ThingsILike() {
           name: 'Picture In Picture', 
           url: 'https://farhadbahrehmandhenry.github.io/vanila-js-projects/projects/picture-in-picture-ok/index.html', 
           image: pictureInPicture
+        },
+        {
+          name: 'Joke Teller', 
+          url: 'https://farhadbahrehmandhenry.github.io/vanila-js-projects/projects/joke-teller-ok/index.html', 
+          image: Joke
         },
       ]
     },
