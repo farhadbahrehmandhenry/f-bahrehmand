@@ -16,6 +16,7 @@ import modal from '../../../assets/modal.png';
 import music from '../../../assets/music.png';
 import movie from '../../../assets/movie.png';
 import navbar from '../../../assets/navbar.png';
+import navbarTwo from '../../../assets/navbar-2.png';
 import parallex from '../../../assets/parallex.png';
 import progress from '../../../assets/progress.png';
 import search from '../../../assets/search.png';
@@ -117,6 +118,11 @@ function ThingsILike() {
           name: 'Simple Navbar', 
           url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/navbar-ok/index.html', 
           image: navbar
+        },
+        {
+          name: 'Simple Navbar 2', 
+          url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/navbar-2-ok/index.html', 
+          image: navbarTwo
         },
         {
           name: 'Parallex Effect', 
