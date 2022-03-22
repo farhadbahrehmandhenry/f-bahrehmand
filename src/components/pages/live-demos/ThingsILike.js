@@ -34,6 +34,7 @@ import quote from '../../../assets/quoting.png';
 import pictureInPicture from '../../../assets/pictureInPicture.png';
 import joke from '../../../assets/joke.png';
 import lightDark from '../../../assets/light-dark.png';
+import videoBackground from '../../../assets/video-background.png';
 
 import './ThingsILike.scss';
 import _ from 'lodash';
@@ -158,6 +159,11 @@ function ThingsILike() {
           name: 'Video Player', 
           url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/video-player-ok/index.html', 
           image: video
+        },
+        {
+          name: 'Video Background', 
+          url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/video-background-ok/index.html', 
+          image: videoBackground
         },
         {
           name: 'Lyric Finder', 
