@@ -35,6 +35,7 @@ import pictureInPicture from '../../../assets/pictureInPicture.png';
 import joke from '../../../assets/joke.png';
 import lightDark from '../../../assets/light-dark.png';
 import videoBackground from '../../../assets/video-background.png';
+import rockPaperScissors from '../../../assets/rock-paper-scissors.png';
 
 import './ThingsILike.scss';
 import _ from 'lodash';
@@ -211,9 +212,14 @@ function ThingsILike() {
           image: joke
         },
         {
-          name: 'Joke Teller', 
+          name: 'Light Dark Mode', 
           url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/light-dark-mode-ok/index.html', 
           image: lightDark
+        },
+        {
+          name: 'Rock Paper Scissors', 
+          url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/rock-paper-scissors-ok/index.html', 
+          image: rockPaperScissors
         },
       ]
     },
