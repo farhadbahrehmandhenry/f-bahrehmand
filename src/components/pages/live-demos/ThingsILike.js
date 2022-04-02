@@ -36,6 +36,7 @@ import joke from '../../../assets/joke.png';
 import lightDark from '../../../assets/light-dark.png';
 import videoBackground from '../../../assets/video-background.png';
 import rockPaperScissors from '../../../assets/rock-paper-scissors.png';
+import nasa from '../../../assets/nasa.png';
 
 import './ThingsILike.scss';
 import _ from 'lodash';
@@ -220,6 +221,11 @@ function ThingsILike() {
           name: 'Rock Paper Scissors', 
           url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/rock-paper-scissors-ok/index.html', 
           image: rockPaperScissors
+        },
+        {
+          name: 'NASA', 
+          url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/nasa-ok/index.html', 
+          image: nasa
         },
       ]
     },
