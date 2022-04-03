@@ -37,6 +37,7 @@ import lightDark from '../../../assets/light-dark.png';
 import videoBackground from '../../../assets/video-background.png';
 import rockPaperScissors from '../../../assets/rock-paper-scissors.png';
 import nasa from '../../../assets/nasa.png';
+import kanban from '../../../assets/kanban.png';
 
 import './ThingsILike.scss';
 import _ from 'lodash';
@@ -226,6 +227,11 @@ function ThingsILike() {
           name: 'NASA', 
           url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/nasa-ok/index.html', 
           image: nasa
+        },
+        {
+          name: 'KANBAN', 
+          url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/kanban-ok/index.html', 
+          image: kanban
         },
       ]
     },
