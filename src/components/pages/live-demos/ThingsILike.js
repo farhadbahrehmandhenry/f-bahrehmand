@@ -39,6 +39,7 @@ import rockPaperScissors from '../../../assets/rock-paper-scissors.png';
 import nasa from '../../../assets/nasa.png';
 import kanban from '../../../assets/kanban.png';
 import expand from '../../../assets/expand.png';
+import steps from '../../../assets/steps.png';
 
 import './ThingsILike.scss';
 import _ from 'lodash';
@@ -238,6 +239,11 @@ function ThingsILike() {
           name: 'Expandig Pics', 
           url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/expanding-pic-ok/index.html', 
           image: expand
+        },
+        {
+          name: 'Steps', 
+          url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/steps-ok/index.html', 
+          image: steps
         },
       ]
     },
