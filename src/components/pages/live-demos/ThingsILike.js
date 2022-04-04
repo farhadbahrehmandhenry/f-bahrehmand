@@ -38,6 +38,7 @@ import videoBackground from '../../../assets/video-background.png';
 import rockPaperScissors from '../../../assets/rock-paper-scissors.png';
 import nasa from '../../../assets/nasa.png';
 import kanban from '../../../assets/kanban.png';
+import expand from '../../../assets/expand.png';
 
 import './ThingsILike.scss';
 import _ from 'lodash';
@@ -232,6 +233,11 @@ function ThingsILike() {
           name: 'KANBAN', 
           url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/kanban-ok/index.html', 
           image: kanban
+        },
+        {
+          name: 'Expandig Pics', 
+          url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/expanding-pic-ok/index.html', 
+          image: expand
         },
       ]
     },
