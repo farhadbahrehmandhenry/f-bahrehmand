@@ -40,6 +40,7 @@ import nasa from '../../../assets/nasa.png';
 import kanban from '../../../assets/kanban.png';
 import expand from '../../../assets/expand.png';
 import steps from '../../../assets/steps.png';
+import land from '../../../assets/land.jpg';
 
 import './ThingsILike.scss';
 import _ from 'lodash';
@@ -129,6 +130,11 @@ function ThingsILike() {
           name: 'Simple Navbar 2', 
           url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/navbar-2-ok/index.html', 
           image: navbarTwo
+        },
+        {
+          name: 'Simple Navbar 3', 
+          url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/land-page-ok/index.html', 
+          image: land
         },
         {
           name: 'Parallex Effect', 
