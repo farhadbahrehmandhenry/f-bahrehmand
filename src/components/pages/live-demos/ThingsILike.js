@@ -42,6 +42,7 @@ import expand from '../../../assets/expand.png';
 import steps from '../../../assets/steps.png';
 import land from '../../../assets/land.jpg';
 import blurry from '../../../assets/blurry.jpg';
+import scrolAnimation from '../../../assets/scroll-animation.jpg';
 
 import './ThingsILike.scss';
 import _ from 'lodash';
@@ -256,6 +257,11 @@ function ThingsILike() {
           name: 'Blurry Loading', 
           url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/blurry-ok/index.html', 
           image: blurry
+        },
+        {
+          name: 'Scroll Animation', 
+          url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/scroll-animation-ok/index.html', 
+          image: scrollAnimation
         },
       ]
     },
