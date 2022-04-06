@@ -41,6 +41,7 @@ import kanban from '../../../assets/kanban.png';
 import expand from '../../../assets/expand.png';
 import steps from '../../../assets/steps.png';
 import land from '../../../assets/land.jpg';
+import blurry from '../../../assets/blurry.jpg';
 
 import './ThingsILike.scss';
 import _ from 'lodash';
@@ -250,6 +251,11 @@ function ThingsILike() {
           name: 'Steps', 
           url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/steps-ok/index.html', 
           image: steps
+        },
+        {
+          name: 'Blurry Loading', 
+          url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/blurry-ok/index.html', 
+          image: blurry
         },
       ]
     },
