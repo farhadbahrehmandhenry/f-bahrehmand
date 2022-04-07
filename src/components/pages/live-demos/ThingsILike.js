@@ -43,6 +43,7 @@ import steps from '../../../assets/steps.png';
 import land from '../../../assets/land.jpg';
 import blurry from '../../../assets/blurry.jpg';
 import scrollAnimation from '../../../assets/scroll-animation.png';
+import split from '../../../assets/split.png';
 
 import './ThingsILike.scss';
 import _ from 'lodash';
@@ -262,6 +263,11 @@ function ThingsILike() {
           name: 'Scroll Animation', 
           url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/scroll-animation-ok/index.html', 
           image: scrollAnimation
+        },
+        {
+          name: 'Split Landing', 
+          url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/split-ok/index.html', 
+          image: split
         },
       ]
     },
