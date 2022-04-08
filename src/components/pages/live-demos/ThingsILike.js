@@ -44,6 +44,7 @@ import land from '../../../assets/land.jpg';
 import blurry from '../../../assets/blurry.jpg';
 import scrollAnimation from '../../../assets/scroll-animation.png';
 import split from '../../../assets/split.png';
+import formTwo from '../../../assets/formTwo.png';
 
 import './ThingsILike.scss';
 import _ from 'lodash';
@@ -83,6 +84,11 @@ function ThingsILike() {
           name: 'Form', 
           url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/form-ok/index.html', 
           image: form
+        },
+        {
+          name: 'Form 2', 
+          url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/form-2-ok/index.html', 
+          image: formTwo
         },
         {
           name: 'Full Page Scroll Effect', 
