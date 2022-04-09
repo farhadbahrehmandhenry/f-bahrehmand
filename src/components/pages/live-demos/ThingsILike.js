@@ -46,6 +46,7 @@ import scrollAnimation from '../../../assets/scroll-animation.png';
 import split from '../../../assets/split.png';
 import formTwo from '../../../assets/formTwo.png';
 import faq from '../../../assets/faq.png';
+import randomPicker from '../../../assets/random-picker.png';
 
 import './ThingsILike.scss';
 import _ from 'lodash';
@@ -280,6 +281,11 @@ function ThingsILike() {
           name: 'FAQ', 
           url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/faq-ok/index.html', 
           image: faq
+        },
+        {
+          name: 'Random Picker', 
+          url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/random-picker-ok/index.html', 
+          image: randomPicker
         },
       ]
     },
