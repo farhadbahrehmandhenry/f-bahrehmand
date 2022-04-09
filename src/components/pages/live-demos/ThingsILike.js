@@ -45,6 +45,7 @@ import blurry from '../../../assets/blurry.jpg';
 import scrollAnimation from '../../../assets/scroll-animation.png';
 import split from '../../../assets/split.png';
 import formTwo from '../../../assets/formTwo.png';
+import faq from '../../../assets/faq.png';
 
 import './ThingsILike.scss';
 import _ from 'lodash';
@@ -274,6 +275,11 @@ function ThingsILike() {
           name: 'Split Landing', 
           url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/split-ok/index.html', 
           image: split
+        },
+        {
+          name: 'FAQ', 
+          url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/faq-ok/index.html', 
+          image: faq
         },
       ]
     },
