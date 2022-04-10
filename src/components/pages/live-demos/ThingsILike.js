@@ -48,6 +48,7 @@ import formTwo from '../../../assets/formTwo.png';
 import faq from '../../../assets/faq.png';
 import randomPicker from '../../../assets/random-picker.png';
 import animatedNav from '../../../assets/animated-nav.png';
+import water from '../../../assets/water.png';
 
 import './ThingsILike.scss';
 import _ from 'lodash';
@@ -292,6 +293,11 @@ function ThingsILike() {
           name: 'Animated Navigation', 
           url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/animated-navigation-ok/index.html', 
           image: animatedNav
+        },
+        {
+          name: 'Water', 
+          url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/water-ok/index.html', 
+          image: water
         },
       ]
     },
