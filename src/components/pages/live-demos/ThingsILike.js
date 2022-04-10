@@ -47,6 +47,7 @@ import split from '../../../assets/split.png';
 import formTwo from '../../../assets/formTwo.png';
 import faq from '../../../assets/faq.png';
 import randomPicker from '../../../assets/random-picker.png';
+import animatedNav from '../../../assets/animated-nav.png';
 
 import './ThingsILike.scss';
 import _ from 'lodash';
@@ -286,6 +287,11 @@ function ThingsILike() {
           name: 'Random Picker', 
           url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/random-picker-ok/index.html', 
           image: randomPicker
+        },
+        {
+          name: 'Animated Navigation', 
+          url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/animated-navigation-ok/index.html', 
+          image: animatedNav
         },
       ]
     },
