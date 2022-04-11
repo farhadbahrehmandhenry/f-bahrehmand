@@ -49,6 +49,7 @@ import faq from '../../../assets/faq.png';
 import randomPicker from '../../../assets/random-picker.png';
 import animatedNav from '../../../assets/animated-nav.png';
 import water from '../../../assets/water.png';
+import movieDb from '../../../assets/movie-db.png';
 
 import './ThingsILike.scss';
 import _ from 'lodash';
@@ -298,6 +299,11 @@ function ThingsILike() {
           name: 'Water', 
           url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/water-ok/index.html', 
           image: water
+        },
+        {
+          name: 'Movie DB', 
+          url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/movie-db-ok/index.html', 
+          image: movieDb
         },
       ]
     },
