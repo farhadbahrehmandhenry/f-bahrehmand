@@ -50,6 +50,7 @@ import randomPicker from '../../../assets/random-picker.png';
 import animatedNav from '../../../assets/animated-nav.png';
 import water from '../../../assets/water.png';
 import movieDb from '../../../assets/movie-db.png';
+import backgroundSlider from '../../../assets/background-slider.png';
 
 import './ThingsILike.scss';
 import _ from 'lodash';
@@ -304,6 +305,11 @@ function ThingsILike() {
           name: 'Movie DB', 
           url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/movie-db-ok/index.html', 
           image: movieDb
+        },
+        {
+          name: 'Background Slider', 
+          url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/background-slider-ok/index.html', 
+          image: backgroundSlider
         },
       ]
     },
