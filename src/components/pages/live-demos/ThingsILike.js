@@ -51,6 +51,7 @@ import animatedNav from '../../../assets/animated-nav.png';
 import water from '../../../assets/water.png';
 import movieDb from '../../../assets/movie-db.png';
 import backgroundSlider from '../../../assets/background-slider.png';
+import clock from '../../../assets/clock.png';
 
 import './ThingsILike.scss';
 import _ from 'lodash';
@@ -310,6 +311,11 @@ function ThingsILike() {
           name: 'Background Slider', 
           url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/background-slider-ok/index.html', 
           image: backgroundSlider
+        },
+        {
+          name: 'Clock', 
+          url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/clock-ok/index.html', 
+          image: clock
         },
       ]
     },
