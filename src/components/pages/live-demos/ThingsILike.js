@@ -52,6 +52,7 @@ import water from '../../../assets/water.png';
 import movieDb from '../../../assets/movie-db.png';
 import backgroundSlider from '../../../assets/background-slider.png';
 import clock from '../../../assets/clock.png';
+import click from '../../../assets/click-effect.png';
 
 import './ThingsILike.scss';
 import _ from 'lodash';
@@ -316,6 +317,11 @@ function ThingsILike() {
           name: 'Clock', 
           url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/clock-ok/index.html', 
           image: clock
+        },
+        {
+          name: 'Click Effect', 
+          url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/click-effect-ok/index.html', 
+          image: click
         },
       ]
     },
