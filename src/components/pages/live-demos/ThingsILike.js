@@ -53,6 +53,7 @@ import movieDb from '../../../assets/movie-db.png';
 import backgroundSlider from '../../../assets/background-slider.png';
 import clock from '../../../assets/clock.png';
 import click from '../../../assets/click-effect.png';
+import drawingPad from '../../../assets/drawingPad.png';
 
 import './ThingsILike.scss';
 import _ from 'lodash';
@@ -322,6 +323,11 @@ function ThingsILike() {
           name: 'Click Effect', 
           url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/click-effect-ok/index.html', 
           image: click
+        },
+        {
+          name: 'Drawing Pad', 
+          url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/drawing-pad-ok/index.html', 
+          image: drawingPad
         },
       ]
     },
