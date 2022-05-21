@@ -56,6 +56,7 @@ import click from '../../../assets/click-effect.png';
 import drawingPad from '../../../assets/drawingPad.png';
 import loading from '../../../assets/loading.png';
 import tables from '../../../assets/table.png';
+import gradiant from '../../../assets/graidiant-effect.png';
 
 import './ThingsILike.scss';
 import _ from 'lodash';
@@ -340,6 +341,11 @@ function ThingsILike() {
           name: 'Tables', 
           url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/table-ok/index.html', 
           image: tables
+        },
+        {
+          name: 'Graidiant Effect', 
+          url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/gradiant-effect-ok/index.html', 
+          image: gradiant
         },
       ]
     },
