@@ -54,6 +54,8 @@ import backgroundSlider from '../../../assets/background-slider.png';
 import clock from '../../../assets/clock.png';
 import click from '../../../assets/click-effect.png';
 import drawingPad from '../../../assets/drawingPad.png';
+import loading from '../../../assets/loading.png';
+import tables from '../../../assets/table.png';
 
 import './ThingsILike.scss';
 import _ from 'lodash';
@@ -328,6 +330,16 @@ function ThingsILike() {
           name: 'Drawing Pad', 
           url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/drawing-pad-ok/index.html', 
           image: drawingPad
+        },
+        {
+          name: 'Loading', 
+          url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/loading-ok/index.html', 
+          image: loading
+        },
+        {
+          name: 'Tables', 
+          url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/table-ok/index.html', 
+          image: tables
         },
       ]
     },
