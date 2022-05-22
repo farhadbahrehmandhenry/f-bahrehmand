@@ -57,6 +57,7 @@ import drawingPad from '../../../assets/drawingPad.png';
 import loading from '../../../assets/loading.png';
 import tables from '../../../assets/table.png';
 import gradiant from '../../../assets/graidiant-effect.png';
+import sticky from '../../../assets/sticky-nav.png';
 
 import './ThingsILike.scss';
 import _ from 'lodash';
@@ -346,6 +347,11 @@ function ThingsILike() {
           name: 'Graidiant Effect', 
           url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/gradiant-effect-ok/index.html', 
           image: gradiant
+        },
+        {
+          name: 'Sticky Nav', 
+          url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/sticky-nav-ok/index.html', 
+          image: sticky
         },
       ]
     },
