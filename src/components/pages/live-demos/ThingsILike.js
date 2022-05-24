@@ -60,6 +60,7 @@ import gradiant from '../../../assets/graidiant-effect.png';
 import sticky from '../../../assets/sticky-nav.png';
 import vSlider from '../../../assets/vertical-slider.png';
 import githubOk from '../../../assets/github-ok.png';
+import heart from '../../../assets/heart-ok.png';
 
 import './ThingsILike.scss';
 import _ from 'lodash';
@@ -364,6 +365,11 @@ function ThingsILike() {
           name: 'Github API', 
           url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/github-ok/index.html', 
           image: githubOk
+        },
+        {
+          name: 'Heart', 
+          url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/heart-ok/index.html', 
+          image: heart
         },
       ]
     },
