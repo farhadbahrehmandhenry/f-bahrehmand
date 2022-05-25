@@ -61,7 +61,8 @@ import sticky from '../../../assets/sticky-nav.png';
 import vSlider from '../../../assets/vertical-slider.png';
 import githubOk from '../../../assets/github-ok.png';
 import heart from '../../../assets/heart-ok.png';
-import autotype from '../../../assets/autotype-ok.png';
+import autotype from '../../../assets/autotype.png';
+import passGen from '../../../assets/pass-generator.png';
 
 import './ThingsILike.scss';
 import _ from 'lodash';
@@ -376,6 +377,11 @@ function ThingsILike() {
           name: 'Autotype', 
           url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/autotype-ok/index.html', 
           image: autotype
+        },
+        {
+          name: 'Password Generator', 
+          url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/password-generator-ok/index.html', 
+          image: passGen
         },
       ]
     },
