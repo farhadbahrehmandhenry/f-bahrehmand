@@ -63,6 +63,8 @@ import githubOk from '../../../assets/github-ok.png';
 import heart from '../../../assets/heart-ok.png';
 import autotype from '../../../assets/autotype.png';
 import passGen from '../../../assets/pass-generator.png';
+import goodBadUgly from '../../../assets/good-bad-ugly.png';
+import note from '../../../assets/note.png';
 
 import './ThingsILike.scss';
 import _ from 'lodash';
@@ -382,6 +384,16 @@ function ThingsILike() {
           name: 'Password Generator', 
           url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/password-generator-ok/index.html', 
           image: passGen
+        },
+        {
+          name: 'Good Bad Ugly', 
+          url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/good-bad-ugly-ok/index.html', 
+          image: goodBadUgly
+        },
+        {
+          name: 'Notebook', 
+          url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/notebook-ok/index.html', 
+          image: note
         },
       ]
     },
