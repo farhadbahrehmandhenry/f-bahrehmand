@@ -394,7 +394,7 @@ function ThingsILike() {
           name: 'Notebook', 
           url: 'https://farhadbahrehmandhenry.github.io/project-vanilla-js/projects/notebook-ok/index.html', 
           image: note
-        },
+        }
       ]
     },
     { 
