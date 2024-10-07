@@ -53,7 +53,7 @@ import movieDb from '../../../assets/movie-db.png';
 import backgroundSlider from '../../../assets/background-slider.png';
 import clock from '../../../assets/clock.png';
 import click from '../../../assets/click-effect.png';
-import drawingPad from '../../../assets/drawingPad.png';
+import drawingPad from '../../../assets/drawing-pad.png';
 import loading from '../../../assets/loading.png';
 import tables from '../../../assets/table.png';
 import gradiant from '../../../assets/graidiant-effect.png';
